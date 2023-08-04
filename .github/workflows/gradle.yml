@@ -42,6 +42,7 @@ jobs:
       with:
         context: .
         file: ./Dockerfile
+        push: true
     
    # - name: Grant execute permission for gradlew
    #   run: chmod +x gradlew
