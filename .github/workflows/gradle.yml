@@ -24,6 +24,8 @@ jobs:
       with:
         java-version: '17'
         distribution: 'oracle'
+    - name: validation
+      uses: gradle/wrapper-validation-action@56b90f209b02bf6d1deae490e9ef18b21a389cd4
     - name: gradle build
       uses: gradle/gradle-build-action@v2.7.0
       with:
