@@ -11,6 +11,6 @@ public class GithubActionController {
     @GetMapping("/")
     public String githubAction(){
 
-        return "docker_tag 수정2";
+        return "docker CI 적용 성공";
     }
 }
