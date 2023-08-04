@@ -11,6 +11,6 @@ public class GithubActionController {
     @GetMapping("/")
     public String githubAction(){
 
-        return "docker_buildx 삭제3";
+        return "docker_push 수정";
     }
 }
