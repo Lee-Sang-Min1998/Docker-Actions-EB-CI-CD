@@ -11,6 +11,6 @@ public class GithubActionController {
     @GetMapping("/")
     public String githubAction(){
 
-        return "build action 수정";
+        return "build action 수정2";
     }
 }
