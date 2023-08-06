@@ -61,7 +61,7 @@ jobs:
         environment_name: Trade-market-test-env
         version_label: trade-market-test-${{steps.current-time.outputs.formattedTime}}
         region: ap-northeast-2
-        deployment_package: Dockerrun.aws.json
+        deployment_package: docker-compose.yml
     
    # - name: Grant execute permission for gradlew
    #   run: chmod +x gradlew
