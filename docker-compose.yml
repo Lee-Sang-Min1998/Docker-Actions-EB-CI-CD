@@ -3,5 +3,5 @@ services:
   api-server:
     image: "dkwkghkdlxld2/github_actions_eb:latest"
     ports:
-      - "8080:8080"
+      - "8080:80"
     restart: "always"
