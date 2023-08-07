@@ -1,0 +1,7 @@
+version: "3"
+services:
+  api-server:
+    image: "dkwkghkdlxld2/github_actions_eb"
+    ports:
+      - "80:8080"
+    restart: "always"
