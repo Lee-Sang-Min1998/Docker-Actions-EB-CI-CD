@@ -11,6 +11,6 @@ public class GithubActionController {
     @GetMapping("/")
     public String githubAction(){
 
-        return "Dockkerrun.aws.json을 이용한 CD 성공2";
+        return "docker-compose.yml과 Docker running on 64bit Amazon Linux 2를 사용한 배포 성공!";
     }
 }
