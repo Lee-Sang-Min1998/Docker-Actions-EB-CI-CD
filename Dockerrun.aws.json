@@ -1,13 +1,18 @@
 {
-  "AWSEBDockerrunVersion": "1",
-  "Image": {
-    "Name": "dkwkghkdlxld2/github_actions_eb",
-    "Update": "true"
-  },
-  "Ports": [
+  "AWSEBDockerrunVersion": 2,
+  "containerDefinitions": [
     {
-      "ContainerPort": "8080",
-      "HostPort": "5000"
+      "name": "apiserver",
+      "image": "dkwkghkdlxld2/github_actions_eb:latest",
+      "hostname": "apiserver",
+      "essential": true,
+      "portMappings": [
+        {
+          "hostPort": 5000,
+          "containerPort": 8080
+        }
+      ],
+      "memory": 128
     }
   ]
 }
