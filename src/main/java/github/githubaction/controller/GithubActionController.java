@@ -11,6 +11,6 @@ public class GithubActionController {
     @GetMapping("/")
     public String githubAction(){
 
-        return "Dockkerrun.aws.json을 이용한 CD 성공";
+        return "Dockkerrun.aws.json을 이용한 CD 성공2";
     }
 }

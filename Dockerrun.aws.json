@@ -1,7 +1,7 @@
 {
   "AWSEBDockerrunVersion": "1",
   "Image": {
-    "Name": "dkwkghkdlxld2/github_actions_eb",
+    "Name": "dkwkghkdlxld2/github_actions_eb:latest",
     "Update": "true"
   },
   "Ports": [
