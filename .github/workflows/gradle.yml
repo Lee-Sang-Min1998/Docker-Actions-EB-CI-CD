@@ -29,11 +29,11 @@ jobs:
 #      - name: Checkout
       - uses: actions/checkout@v3
 
-#      - name: Prepare Build
-#        uses: actions/setup-java@v3
-#        with:
-#          distribution: 'temurin'
-#          java-version: '17'
+      - name: Prepare Build
+        uses: actions/setup-java@v3
+        with:
+          distribution: 'temurin'
+          java-version: '17'
 
       - name: Docker Login
         uses: docker/login-action@v2
