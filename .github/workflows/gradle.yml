@@ -3,7 +3,7 @@ name: Aws Elastic Beanstalk Build
 on:
   push:
     branches:
-      - main
+      - master
   pull_request:
     types:
       - closed
