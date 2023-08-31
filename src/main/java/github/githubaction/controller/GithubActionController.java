@@ -11,6 +11,6 @@ public class GithubActionController {
     @GetMapping("/")
     public String githubAction(){
 
-        return "docker-compose.yml과 Docker running on 64bit Amazon Linux 2를 사용한 배포 성공! dockerfile 오류 해결";
+        return "./gradelew 에러";
     }
 }
